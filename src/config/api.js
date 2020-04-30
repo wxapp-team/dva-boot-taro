@@ -1,14 +1,14 @@
-// const WxApiRoot = 'http://gzfp.gzkjy.cn:9901/';
-const WxApiRoot = 'https://gzfp.gzkjy.cn';
+// const WxApiRoot = 'http://xxx.gzkjy.cn:9901/';
+const WxApiRoot = 'https://xxx.gzkjy.cn';
 
 export default {
-  AuthLoginByAccount: WxApiRoot + '/api/member/login', // 出入林场人员登录接口
-  AuthRegister: WxApiRoot + '/api/member/save', // 账号注册
-  AuthUserUpdate: WxApiRoot + '/api/member/update', // 账号更新
+  AuthLoginByAccount: WxApiRoot + '/api/member/login',
+  AuthRegister: WxApiRoot + '/api/member/save',
+  AuthUserUpdate: WxApiRoot + '/api/member/update',
 
-  FileUpload: WxApiRoot + '/upload/uploadFileForMp', // 上传文件
+  FileUpload: WxApiRoot + '/upload/uploadFileForMp',
 
-  GetAreaList: WxApiRoot + '/api/area/listAll', // 区域列表
-  GetUserInfo: WxApiRoot + '/api/member/findById', // 获取用户信息
-  GetOpenId: WxApiRoot + '/api/weixin/getUser', // 获取openId
+  GetAreaList: WxApiRoot + '/api/area/listAll',
+  GetUserInfo: WxApiRoot + '/api/member/findById',
+  GetOpenId: WxApiRoot + '/api/weixin/getUser'
 };
